@@ -8,13 +8,13 @@ There is a maternal health crisis worldwide. The World Health Organisation estim
 - Linking relvant services with users
 
 ## Features Available:
-  REGISTER/LOGIN IN 
-  User Profile 
-  Trimester-based Precautions, Yoga Workout and Diet 
-  Chatbots for Menstruation Prediction, Ovulation Tracker, Pregnancy Assignment
-  Separate webpage for Postpartum Awareness along postpartum chatbot
-  Connect Page where people can chat over topics like Child Development, Healthcare and can also connect with everyone
-  Services to users such as nearby midwifes and doula services, medical shops and much more.
+  - REGISTER/LOGIN IN 
+  - User Profile 
+  - Trimester-based Precautions, Yoga Workout and Diet 
+  - Chatbots for Menstruation Prediction, Ovulation Tracker, Pregnancy Assignment
+  - Separate webpage for Postpartum Awareness along postpartum chatbot
+  - Connect Page where people can chat over topics like Child Development, Healthcare and can also connect with everyone
+  - Services to users such as nearby midwifes and doula services, medical shops and much more.
   
 ### Registration & Login
 
