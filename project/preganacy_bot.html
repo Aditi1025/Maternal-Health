@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    header {
+        /*background-color: tomato;*/
+        color: #000643;
+        padding: 5px;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+      } 
+  </style>
+<header>
+</head>
+
+<body  onload="trigger();">
+    <h1 id="hover">Welcome to your own Prega-Bot!!</h1>
+</body>
+
+</header>
+</head>
+<body>
+  <head>
+    <meta charset="utf-8">   
+   <style type="text/css">
+    button {
+      background: #00bcd4;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 2px 8px 0px rgba(0, 2, 2, 0.5);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      outline: none;
+      padding: 15px;
+      margin: 8px;
+  } 
+    #button1 {
+      background: #00bcd4;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 2px 8px 0px rgba(0, 2, 2, 0.5);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      outline: none;
+      padding: 15px;
+      margin: 8px;
+      float: right;
+    }
+    .button20 {
+      position: relative;
+      transform: translateZ(0);
+      transition: color 0.3s ease;
+    }
+    .button20:before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      background: #0f6294;
+      border-radius: 5px;
+      content: '';
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease-out;
+      z-index: -1;
+    }
+    .button20:hover, .button5:focus, .button5:active {
+      color: #fff;
+      cursor: pointer;
+    }
+    .button20:hover:before, .button5:focus:before, .button5:active:before {
+      transform: scaleX(1);
+    }
+    .animationButton9:hover, .animationButton9:focus, .animationButton9:active {
+      animation: hover-pulse 1s linear infinite;
+      cursor: pointer;
+    }
+
+    @keyframes hover-pulse {
+      25% {
+        transform: scale(1.1);
+      }
+      75% {
+        transform: scale(0.9);
+      }
+    }
+
+    .animationButton15:hover, .animationButton15:focus, .animationButton15:active {
+      animation: hover-skew-wobble 1s ease-in-out 1; background: #c0f1f7;
+      cursor: pointer;
+      
+    }
+
+    @keyframes hover-skew-wobble {
+      15% {
+        transform: skew(-12deg);
+      }
+      30% {
+        transform: skew(10deg);
+      }
+      50% {
+        transform: skew(-6deg);
+      }
+      65% {
+        transform: skew(4deg);
+      }
+      80% {
+        transform: skew(-2deg);
+      }
+      100% {
+        transform: skew(0);
+      }
+    }
+   </style>
+  </head>
+  
+<body>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  .card {
+    background-color: #c0f1f7;
+    padding: 20px;
+    margin-top: 20px;
+  }
+</style>
+
+<head>
+<style>
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial;
+      padding: 10px;
+      background: #c0f1f7;
+  }
+
+.leftcolumn {   
+    
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27rem;
+}
+
+/* Add a card effect for articles */
+.card {
+    /* background-color: white; */
+    padding: 10px;
+    margin-top: 10px;
+    color: #0f6294;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+</style>
+</head>
+ 
+<body>
+  <div class="row">
+      <div class="leftcolumn">
+      <div class="card">
+              <div id="example1">
+            <iframe width="500" height="705" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/PregnancyAssistant"></iframe>
+              </div>
+      </div>
+    </div>
+  </div>
+
+ 
+</body>
+</head>
+</html>
+

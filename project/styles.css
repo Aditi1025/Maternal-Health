@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif;
+  }
+  .w3-bar,
+  h1,
+  button {
+    font-family: "Montserrat", sans-serif;
+  }
+  .fa-anchor,
+  .fa-coffee {
+    font-size: 200px;
+  }
+  #paragraph {
+    color: #42515E;
+    font-family: "Georgia", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    vertical-align: baseline;
+    text-align: justify;
+}
+#paragraph3 {
+    color:#42515E;
+    font-style: italic;
+    font-family: "Georgia", Sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    vertical-align: baseline;
+    text-align:center;
+}
+#paragraph2 {
+    color: black;
+    font-family: "Georgia", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    vertical-align: baseline;
+    text-align: justify;
+    margin-top:2px;
+}
+#paragraph1{
+    color: #42515E;
+    font-family: "Georgia", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    padding-top:12px;
+}
+
+  .home {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+  .home22 {
+    align: center;
+  }
+  #pre {
+    margin-left: -50px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #1F4690;
+    color : white;
+    
+  }
+  .heading{
+    color: #1F4690;
+    font-weight:bold;
+    margin:-2px;
+}
+.heading-1{
+    color: black;
+    font-weight:bold;
+    margin:-2px;
+}
+.para{
+    margin:4rem;
+}
+  ul {
+    list-style: none; /* Remove default bullets */
+  }
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: #1F4690;
+  }
+  
+  .active {
+      
+    background-color: black;
+    color: black;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+    background-color: pink;
+  }
+  
+  @media screen and (max-width: 600px) { 
+      .topnav a:not(:first-child) {
+      display: none;
+      } 
+  .topnav a.icon { 
+   background-color: pink;
+   float: right;
+   display: block;
+   } 
+  } 
+  @media screen and (max-width: 600px) {
+   .topnav.responsive {
+  position: relative;
+  } 
+  .topnav.responsive .icon {
+   position: absolute;
+    background-color: pink;
+  right: 0; 
+  top: 0;
+   } 
+  .topnav.responsive a { 
+  float: none;
+   background-color: pink;
+   color: black; 
+  display: block; 
+  text-align: left;
+   } 
+  
